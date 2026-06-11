@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix India – Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="net.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <span class="logo">
+          <img height="33" src="assets/logo.svg" alt="" />
+        </span>
+        <div class="buttons">
+          <div class="dropdown">
+            <button class="btn btn-red-sn dropdown-btn" onclick="toggleDropdown()">Language</button>
+            <div class="dropdown-content" id="languageDropdown">
+              <a href="#" onclick="setLanguage('en')">English</a>
+              <a href="#" onclick="setLanguage('hi')">Hindi</a>
+            </div>
+          </div>
+          <button class="btn btn-red-sn">Sign In</button>
+          <button class="btn btn-red-sn" onclick="location.href='signup.html'">Create Account</button>
+        </div>
+      </nav>
+      <div class="box"></div>
+      <div class="hero">
+        <span>Unlimited movies, TV shows and more</span>
+        <span>Starts at ₹149. Cancel anytime.</span>
+        <span
+          >Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+        <div class="e-address">
+          <input type="email" placeholder="Email address" />
+          <button class="btn btn-red">Get Started &gt</button>
+        </div>
+      </div>
+      <div class="seperation"></div>
+    </div>
+    <section class="first">
+      <div>
+        <span class="enjoy">Enjoy on your TV</span>
+        <span
+          >Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray
+          players and more.</span
+        >
+      </div>
+      <div class="png-img">
+        <img src="assets/tv1.png" alt="" />
+        <video src="assets/video2.mp4" autoplay loop muted></video>
+      </div>
+    </section>
+    <div class="seperation divider"></div>
+    <section class="second">
+      <div class="png2">
+        <img src="assets/Netflix2.webp" alt="" />
+      </div>
+      <div class="watch">
+        <span>Watch everywhere</span>
+        <span
+          >Stream unlimited movies and TV shows on your phone, tablet, laptop
+          and TV.</span
+        >
+      </div>
+    </section>
+    <div class="seperation divider"></div>
+    <section class="third">
+      <div>
+        <span>Download your shows to watch offline</span>
+        <span
+          >Save your favourites easily and always have something to watch.</span
+        >
+      </div>
+      <div class="png-img">
+        <img src="assets/tv1.png" alt="" />
+        <video src="assets/video1.m4v" autoplay loop muted></video>
+      </div>
+    </section>
+    <div class="seperation divider"></div>
+    <section class="fourth">
+      <div class="png2">
+        <img src="assets/5gz4_5233_210702.jpg" alt="" />
+      </div>
+      <div class="watch">
+        <span>Create profiles for kids</span>
+        <span
+          >Send kids on adventures with their favourite characters in a space
+          made just for them — free with your membership.</span
+        >
+      </div>
+    </section>
+    <div class="seperation divider"></div>
+    <section>
+      <h2>Frequently Asked Question</h2>
+      <div class="faq">
+        <div class="faq-content">
+          <span>What is Netflix?</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="white"
+          >
+            <path
+              d="M12 4V20M20 12H4"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="faq-content">
+          <span>How much does Netflix cost?</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="white"
+          >
+            <path
+              d="M12 4V20M20 12H4"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="faq-content">
+          <span>Where can I watch?</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="white"
+          >
+            <path
+              d="M12 4V20M20 12H4"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="faq-content">
+          <span>How do I cancel?</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="white"
+          >
+            <path
+              d="M12 4V20M20 12H4"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="faq-content">
+          <span>What can I watch on Netflix?</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="white"
+          >
+            <path
+              d="M12 4V20M20 12H4"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+        <div class="faq-content">
+          <span>Is Netflix good for kids?</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            width="24"
+            height="24"
+            color="#000000"
+            fill="white"
+          >
+            <path
+              d="M12 4V20M20 12H4"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="bottom-btn">
+        <span class="bottom"
+          >Ready to watch? Enter your email to create or restart your
+          membership.</span
+        >
+        <div class="e-address">
+          <input type="email" placeholder="Email address" />
+          <button class="btn btn-red">Get Started &gt</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="seperation divider"></div>
+    <div class="cook">
+      <p>Questions? Call 000-800-919-1694</p>
+    </div>
+    <footer class="grid">
+      <a href="">FAQ</a>
+      <a href="">Help Centre</a>
+      <a href="">Account</a>
+      <a href="">Media Centre</a>
+      <a href="">Investor Relations</a>
+      <a href="">Jobs</a>
+      <a href="">Ways to Watch</a>
+      <a href="">Terms of Use</a>
+      <a href="">Privacy</a>
+      <a href="">Cookie Preferences</a>
+      <a href="">Contact Us</a>
+      <a href="">Speed Test</a>
+      <a href="">Legal Notices</a>
+      <a href="">Only on Netflix</a>
+      <a href="">Legal Notices</a>
+      <a href="">Corporate Information</a>
+      <a href="">Only on Netflix</a>
+      <a href="">Contact Us</a>
+    </footer>
+    <script src="net.js"></script>
+  </body>
+</html>
